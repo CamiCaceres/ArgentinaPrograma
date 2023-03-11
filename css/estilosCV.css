@@ -35,6 +35,11 @@
     background-color: grey;   
 }
 
+.activo {
+    background-color: #f0ad4e;
+    color: white;
+}
+
 
 /********Main******/
 

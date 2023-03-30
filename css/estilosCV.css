@@ -49,21 +49,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 
         /*************sobre mi********/
-/* .texto {
-    margin-left: 100px;
-} */
-/* .sobreMi {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
 
 .foto2 {
     background-image: url(https://randomuser.me/api/portraits/women/79.jpg);
@@ -80,25 +70,14 @@
     margin-bottom: 10px;
     color: #f0ad4e;
 }
+.cajaEmpresa {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
 
-
-
-
-/*     .empresa{
-        text-align: center;
-        padding: 40px;
-        margin-bottom: 30px;
-        background-color: #f0ad4e;
-    } */
-
-
-        /*************Habilidades********/
-/* .habilidades, .experiencia{
-    display: flex;
-    justify-content: center; 
-    border: black solid 1px;
-    padding: 100px;
-} */
+.cajaEmpresa:hover {
+    border: #f0ad4e solid;
+}
 .cajahabilidades{
     margin: 40px 0 40px 0;
     text-align: center;
@@ -111,6 +90,7 @@
     margin-bottom: 35px;
     background-color: #f0ad4e;
 }
+
 
 
 /* color naranja #f0ad4e*/

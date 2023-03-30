@@ -17,7 +17,7 @@
                 <div class="perfil">
                     <div class="foto1"></div>
                     <div class="nombre">
-                        <h4>Hayley Williams</h4>
+                        <h4>Camila Caceres</h4>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
             <div class="col-12 col-md-9 ladoderecho">
                 
                 <div class="row vh-100 introduccion align-items-center" id="introduccion">
-                    <h5 class="saludo">Hola, me llamo <strong>Heyley Williams</strong></h5>
+                    <h5 class="saludo">Hola, me llamo <strong>Camila Caceres</strong></h5>
                     <h1 class="ocupacion">Soy Desarrolladora Full-Stack</h1>
                     <p class="descripcion">Me especializo en el desarrollo web. Poseo más de 8 años de experiencia creando y diseñando sitios web, aplicaciones, maquetas y muchos más...
                     </p>
@@ -55,11 +55,11 @@
                         </div>
                         <div class="row datos">
                             <div class="col-6">
-                                <p> <b>Nombre:</b> Hayley Williams</p>
-                                <p> <b>Email:</b> <a href="mailto:sonia@mail.com">hayley@mail.com</a></p>
+                                <p> <b>Nombre:</b> Camila Caceres</p>
+                                <p> <b>Email:</b> <a href="mailto:caceres.camila92@gmail.com">caceres.camila92@gmail.com</a></p>
                             </div>
                             <div class="col-6">
-                                <p> <b>Edad:</b> 34</p> 
+                                <p> <b>Edad:</b> 30</p> 
                                 <p> <b>Lugar:</b> Rosario, Santa Fe</p>
                             </div>
                         </div>
@@ -76,20 +76,23 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="row text-center">
-                            <div class="col-sm-12 col-md-6">
-                                <h5 class="cajaempresa">Google</h5><p>2021-present</p>
+                            <div class="col-sm-12 col-md-6 cajaEmpresa" data-bs-toggle="modal" data-bs-target="#ventanaExperiencia" data-empresa="google">
+                                <h5>Google</h5><p>2021-presente</p>
                             </div>
-                            <div class="col-sm-12 col-md-6">
-                                <h5 class="cajaempresa">Amazon</h5><p>2019-2021</p>
+                            <div class="col-sm-12 col-md-6 cajaEmpresa" data-bs-toggle="modal" data-bs-target="#ventanaExperiencia" data-empresa="amazon">
+                                <h5>Amazon</h5><p>2019-2021</p>
                             </div>
                         </div>
                         <div class="row text-center">
-                            <div class="col-sm-12 col-md-6">
-                                <h5 class="cajaempresa">Microsoft</h5><p>2016-2019</p>
+                            <div class="col-sm-12 col-md-6 cajaEmpresa" data-bs-toggle="modal" data-bs-target="#ventanaExperiencia" data-empresa="microsoft">
+                                <h5>Microsoft</h5><p>2016-2019</p>
                             </div>
-                            <div class="col-sm-12 col-md-6">
-                                <h5 class="cajaempresa">Apple</h5><p>2013-2016</p>
+                            <div class="col-sm-12 col-md-6 cajaEmpresa" data-bs-toggle="modal" data-bs-target="#ventanaExperiencia" data-empresa="apple">
+                                <h5>Apple</h5><p>2013-2016</p>
                             </div>
+                        </div>
+                        <div class="row text-center">
+                            <small>Click en las empresas para leer mas</small>
                         </div>
                     </div>
                 </div>
@@ -161,7 +164,30 @@
             </div>
         </div>
     </div>
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="ventanaExperiencia" tabindex="-1" aria-labelledby="ventanaExperienciaTitulo" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="ventanaExperienciaTitulo">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="ventanaExperienciaTexto">
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <script src="js/comportamiento.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+
 </body>
 </html>
